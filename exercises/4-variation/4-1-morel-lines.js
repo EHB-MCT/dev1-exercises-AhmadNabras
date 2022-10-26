@@ -34,14 +34,11 @@ function drawLines() {
     for(let i = 0; i <= horizontallines; i++)
     Utils.drawLine(0 + (10 * i), 0, width - (10 * i), height);
 
-
 }
 
-function drawLinesvertical() {
 
+function drawLinesvertical() {
     let step = width / horizontallines;
     for(let i = 0; i <= verticallines; i++)
     Utils.drawLine(0, 0 + i * 10, width, height - i * 10);
-
-
 }
