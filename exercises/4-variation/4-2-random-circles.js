@@ -25,7 +25,7 @@ function drawBubbles() {
         let size = Utils.randomNumber(10, 100);
 
         //fill circle with hsla colors. 
-        context.fillStyle = Utils.hsla(Utils.randomNumber(0, 500), 75, 50, 50);
+        context.fillStyle = Utils.hsla(Utils.randomNumber(150, 250), 75, 50, 50);
         Utils.fillCircle(x, y, size);
     }
 }
